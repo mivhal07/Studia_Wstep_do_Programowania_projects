@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="07.11.2021" />
         <module name="first_task" />
+        <module name="KOLOKWIUM 13.11.2021" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="07.11.2021" target="8" />
       <module name="first_task" target="16" />
+      <module name="KOLOKWIUM 13.11.2021" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

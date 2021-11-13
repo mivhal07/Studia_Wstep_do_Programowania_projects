@@ -10,4 +10,5 @@ public class Second05 {
         System.out.println("Pierwsza liczba to: " + liczba + "\n"
                 + "Druga liczba to: " + result + "\n" + "Trzecia liczba to: " + result2);
     }
+
 }
