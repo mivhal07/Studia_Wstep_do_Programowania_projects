@@ -12,11 +12,17 @@ public class sixth07 {
             double liczba1 = scanner.nextDouble();
             System.out.println("Podaj drugą liczbę zmiennoprzecinkową");
             double liczba2 = scanner.nextDouble();
-            double liczba3 = scanner.nextDouble();
-
-
-
+            System.out.println("Wynikiem działania jest: " + calculate(liczba1,liczba2));
         }
 
+    }
+
+    public static double calculate(double liczba1, double liczba2){
+
+        double różnica = liczba1 - liczba2;
+        double iloczyn = liczba1 * liczba2;
+        double result = różnica / iloczyn;
+
+        return result;
     }
 }
