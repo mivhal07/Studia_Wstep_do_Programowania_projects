@@ -4,19 +4,20 @@ public class sixth13 {
 
     public static void main(String[] args) {
 
-        double kasaEwy = 100;
-        double procentEwy = 0.1;
-        double kasaKasi = 100;
-        double procentKasi = 0.05;
-        int ilośćLat = 0;
-        double inwestycjaEwy;
-        double inwestycjaKasi;
+        double i = 100;
+        double ewa = i;
+        double kasia = i;
+        int rok;
+
+        for (rok = 1; ; rok++) {
+            ewa = ewa + 0.1 * i;
+            kasia = kasia + 0.05 * kasia;
 
 
+            if (kasia > ewa) break;
+        }
 
-        kasaKasi += kasaKasi*procentKasi;
-        inwestycjaEwy = kasaEwy + (kasaEwy * procentEwy);
-
-
+        System.out.println(String.format("Po: %s latach." +
+                " Stan konta Kasi: %s i Ewy: %s",rok,ewa,kasia));
     }
 }
