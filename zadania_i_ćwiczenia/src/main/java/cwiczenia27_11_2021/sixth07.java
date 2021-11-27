@@ -12,6 +12,8 @@ public class sixth07 {
             double liczba1 = scanner.nextDouble();
             System.out.println("Podaj drugą liczbę zmiennoprzecinkową");
             double liczba2 = scanner.nextDouble();
+            double liczba3 = scanner.nextDouble();
+
 
 
         }
