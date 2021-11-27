@@ -3,9 +3,10 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/23.10.2021/pom.xml" />
         <option value="$PROJECT_DIR$/07.11.2021/pom.xml" />
         <option value="$PROJECT_DIR$/KOLOKWIUM 13.11.2021/pom.xml" />
+        <option value="$PROJECT_DIR$/27.11.2021_ćwiczenia/pom.xml" />
+        <option value="$PROJECT_DIR$/zadania_i_ćwiczenia/pom.xml" />
       </list>
     </option>
   </component>
