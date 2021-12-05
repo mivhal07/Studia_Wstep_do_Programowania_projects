@@ -7,7 +7,7 @@ public class sixth10 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Podaj ile będzie liczb w ciągu");
+        System.out.println("Podaj ile będzie liczb w ciągu z dodawaniem");
         int x = scanner.nextInt();
         double sum = 1.0;
         for (int i = 1; i < x; i++) {
@@ -19,7 +19,7 @@ public class sixth10 {
 
         // drugi ciąg
 
-        System.out.println("Podaj ile będzie liczb w ciągu");
+        System.out.println("Podaj ile będzie liczb w ciągu z przemiennym dodawaniem i odejmowaniem");
         int x2 = scanner.nextInt();
         double sum2 = 1.0;
         for (int i = 1; i < x2; i++) {
