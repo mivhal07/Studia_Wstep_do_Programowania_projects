@@ -1,4 +1,4 @@
-package Kolos;
+package Kolos.kolokwium13_11_2021;
 
 public class Zadanie_1_GWIAZDA {
 
