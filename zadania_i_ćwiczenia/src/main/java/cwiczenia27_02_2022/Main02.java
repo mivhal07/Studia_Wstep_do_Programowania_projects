@@ -1,5 +1,6 @@
 package cwiczenia27_02_2022;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main02 {
@@ -36,5 +37,21 @@ public class Main02 {
             }
         }
 
+    }
+
+    public static void second() {
+        double[] array = new double[3];
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj pierwszą liczbę");
+        double A = scanner.nextDouble();
+        System.out.println("Podaj drugą liczbę");
+        double B = scanner.nextDouble();
+        System.out.println("Podaj trzecią liczbę");
+        double C = scanner.nextDouble();
+        array[0] = A;
+        array[1] = B;
+        array[2] = C;
+        Arrays.sort(array);
+        System.out.println(String.format("Kolejność liczb malejąco: %s, %s, %s", array[2], array[1], array[0]));
     }
 }
