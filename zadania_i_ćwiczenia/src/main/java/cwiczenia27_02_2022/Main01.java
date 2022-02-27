@@ -14,9 +14,41 @@ public class Main01 {
         if (A > B) {
             System.out.println("Największa z tych liczb to: " + A);
             System.out.println("Najmniejsza z tych liczb to: " + B);
-        } else {
+        } else if (B > A) {
             System.out.println("Największa z tych liczb to: " + B);
             System.out.println("Najmniejsza z tych liczb to: " + A);
+        } else {
+            System.out.println("Liczby są równe :)");
         }
     }
 }
+
+
+
+/*
+
+
+ __________
+|  Start   |
+ ----------
+     |
+     |
+     |
+ ____________
+|  wyświetl  |
+| podaj dane |
+ ------------
+     |
+     |
+     |
+ _____________       NIE
+|  if A>B     | ----------   ___________________
+ _____________              |    Wyświetl       |
+     |                       -------------------
+     |  TAK                          |
+     |                               |
+     |                               |
+ _______________               ____________________
+| wyświetl      |-----------  |     KONIEC         |
+ _______________               --------------------
+ */
