@@ -4,13 +4,22 @@ public class ninth02 {
 
     public static void main(String[] args) {
 
-        rzad_zn('k',12,8);
+        rzad_zn('k', 4, 8);
     }
 
     public static void rzad_zn(char ch, int i, int j) {
-        int result = i - j;
-        for (int k = 0; k < result; k++) {
-            System.out.print(ch + " ");
+
+        for (int k = 0; k < j; k++) {
+            System.out.print(k + 1 + " ");
         }
+        System.out.println("");
+        for (int k = 0; k < j; k++) {
+            if (k >= i) {
+                System.out.print(ch + " ");
+            } else {
+                System.out.print("  ");
+            }
+        }
+
     }
 }
