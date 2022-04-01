@@ -1,5 +1,6 @@
 package Kolos.kolokwium26_03_2022;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Zadanie_4_array2 {
@@ -8,11 +9,11 @@ public class Zadanie_4_array2 {
 
         Scanner scanner = new Scanner(System.in);
         int count = 0;
-        int[] array = {3, -3, -8, 9, 0, -1, 5, 7, 3, -100, -6, 2, 62, 256};
-//        for (int i = 0; i < array.length; i++) {
-//            System.out.println(String.format("Wprowadź %s z 10 liczb do tablicy", i + 1));
-//            array[i] = scanner.nextInt();
-//        }
+        int[] array = new int[10];
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(String.format("Wprowadź %s z 10 liczb do tablicy", i + 1));
+            array[i] = scanner.nextInt();
+        }
         for (int i : array) {
             if (i < 0) {
                 count++;
