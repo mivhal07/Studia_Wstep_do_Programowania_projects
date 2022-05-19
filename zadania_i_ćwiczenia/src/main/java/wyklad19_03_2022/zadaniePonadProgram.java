@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Scanner;
 
-public class fourteenth02 {
+public class zadaniePonadProgram {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -12,12 +12,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="07.11.2021" target="8" />
+      <module name="07.11.2021" target="1.8" />
       <module name="27.11.2021" target="8" />
       <module name="27.11.2021_ćwiczenia" target="8" />
       <module name="27.11.2021_Ćwiczenia_5_i_6" target="16" />
       <module name="first_task" target="16" />
-      <module name="KOLOKWIUM 13.11.2021" target="8" />
+      <module name="KOLOKWIUM 13.11.2021" target="1.8" />
       <module name="KOLOKWIUM 26.03.2022" target="8" />
       <module name="zadania_i_ćwiczenia" target="8" />
     </bytecodeTargetLevel>
