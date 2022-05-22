@@ -1,7 +1,6 @@
 package cwiczeniaJKrzanowski.rozdzial4;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class zad4_2_6 {
 
@@ -24,13 +23,17 @@ public class zad4_2_6 {
     }
 
     // B
-    public static void copyReverseArray(int i, int[] tab, int[] tab2) {
-        if (i <= 0) {
+    public static void copyReverseArray(int j, int[] tab, int[] tab2) {
+        if (j <= 0) {
             System.out.println("Liczba nie jest dodatnia");
         } else {
-
-            Collections.reverse(Arrays.asList(tab));
-            System.out.println(tab.toString());
+            for (int i = 0; i < tab.length / 2; i++) {
+                int temp = tab[i];
+                tab[i] = tab[tab.length - i - 1];
+                tab[tab.length - i - 1] = temp;
+            }
+            tab2 = tab;
+            System.out.println(Arrays.toString(tab2));
         }
     }
 }
