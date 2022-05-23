@@ -7,6 +7,7 @@ public class zad4_2_12 {
     public static void main(String[] args) {
 
         nameOfFunction1(1, new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
+       // nameOfFunction2(1, new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
 
     }
 
@@ -25,7 +26,15 @@ public class zad4_2_12 {
     }
 
     //B
-    public static void nameOfFunction2(int j, int[] tab){
+    public static void nameOfFunction2(int j, int[] tab) {
+        int zero = tab[0];
+        for (int i = tab.length; i >= 0; i--) {
+            tab[i] = tab[i - 1];
+        }
+        tab[tab.length] = zero;
+        System.out.println(Arrays.toString(tab));
 
     }
+
+
 }
