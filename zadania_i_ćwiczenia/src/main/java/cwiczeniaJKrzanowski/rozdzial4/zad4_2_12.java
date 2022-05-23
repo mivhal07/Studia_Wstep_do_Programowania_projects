@@ -6,13 +6,15 @@ public class zad4_2_12 {
 
     public static void main(String[] args) {
 
-        nameOfFunction1(1, new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
-       // nameOfFunction2(1, new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
+        reverse(1, new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
+        moveOneLeft(1, new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
+        moveOneRight(1, new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
+        sortArray(1, new int[]{8, 3, 9, 1, 6, 2, 0, 4, 7, 2, 5, 7});
 
     }
 
     // A
-    public static void nameOfFunction1(int j, int[] tab) {
+    public static void reverse(int j, int[] tab) {
         if (j <= 0) {
             System.out.println("Liczba nie jest dodatnia");
         } else {
@@ -25,15 +27,37 @@ public class zad4_2_12 {
         }
     }
 
-    //B
-    public static void nameOfFunction2(int j, int[] tab) {
-        int zero = tab[0];
-        for (int i = tab.length; i >= 0; i--) {
-            tab[i] = tab[i - 1];
+    // B
+    public static void moveOneLeft(int j, int[] tab) {
+        int[] result = new int[tab.length];
+        for (int i = 0; i < tab.length; i++) {
+            if (i == 0) {
+                result[result.length - 1] = tab[0];
+            } else {
+                result[i - 1] = tab[i];
+            }
         }
-        tab[tab.length] = zero;
-        System.out.println(Arrays.toString(tab));
+        System.out.println(Arrays.toString(result));
+    }
 
+    // C
+    public static void moveOneRight(int j, int[] tab) {
+        // {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+        int[] result = new int[tab.length];
+        for (int i = 0; i < tab.length; i++) {
+            if (i == tab.length - 1) {
+                result[0] = tab[result.length - 1];
+            } else {
+                result[i + 1] = tab[i];
+            }
+        }
+        System.out.println(Arrays.toString(result));
+    }
+
+    // D
+    public static void sortArray(int j, int[] tab) {
+        Arrays.sort(tab);
+        System.out.println(Arrays.toString(tab));
     }
 
 
