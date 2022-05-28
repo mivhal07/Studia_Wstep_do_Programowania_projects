@@ -2,7 +2,7 @@ package Kolos.kolokwium28_05_2022;
 
 import java.util.Scanner;
 
-public class zad1_zmienneAB {
+public class zad1 {
 
     public static void main(String[] args) {
 
